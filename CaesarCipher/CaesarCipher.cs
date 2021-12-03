@@ -2,8 +2,6 @@ namespace Caesar_Cipher
 {
     public class CaesarCipher
     {
-
-
         public string Encrypt(string input, int shift)
         {
             bool isUpper = false;
@@ -19,9 +17,7 @@ namespace Caesar_Cipher
 
                 if (isLetter)
                 {
-
                     letter = (char)(letter + shift % 26);
-
                     if (isUpper)
                     {
                         if (letter < 'A')
@@ -36,7 +32,6 @@ namespace Caesar_Cipher
                     }
                     else
                     {
-
                         if (letter < 'a')
                         {
                             letter = (char)(letter + 26);
@@ -52,11 +47,9 @@ namespace Caesar_Cipher
             }
             return new string(letterArray);
         }
-
         public string Decrypt(string value, int shift)
         {
             return new string(Encrypt(value, shift * (-1)));
         }
-
     }
 }

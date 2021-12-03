@@ -1,0 +1,172 @@
+{
+  "CaesarCipher.dll": {
+    "C:\\Users\\Tomas\\Desktop\\CaesarCipher\\CaesarCipher\\CaesarCipher.cs": {
+      "Caesar_Cipher.CaesarCipher": {
+        "System.String Caesar_Cipher.CaesarCipher::Encrypt(System.String,System.Int32)": {
+          "Lines": {
+            "6": 7,
+            "7": 7,
+            "8": 7,
+            "9": 7,
+            "11": 478,
+            "12": 232,
+            "13": 232,
+            "14": 232,
+            "16": 232,
+            "18": 232,
+            "19": 190,
+            "20": 190,
+            "21": 190,
+            "22": 140,
+            "23": 140,
+            "24": 3,
+            "25": 3,
+            "26": 3,
+            "27": 137,
+            "28": 3,
+            "30": 3,
+            "31": 3,
+            "32": 140,
+            "34": 50,
+            "35": 50,
+            "36": 1,
+            "37": 1,
+            "38": 1,
+            "39": 49,
+            "40": 1,
+            "42": 1,
+            "43": 1,
+            "44": 50,
+            "45": 190,
+            "46": 190,
+            "47": 232,
+            "48": 7,
+            "49": 7
+          },
+          "Branches": [
+            {
+              "Line": 11,
+              "Offset": 185,
+              "EndOffset": 19,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 232
+            },
+            {
+              "Line": 18,
+              "Offset": 46,
+              "EndOffset": 48,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 190
+            },
+            {
+              "Line": 21,
+              "Offset": 64,
+              "EndOffset": 66,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 140
+            },
+            {
+              "Line": 23,
+              "Offset": 77,
+              "EndOffset": 79,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 3
+            },
+            {
+              "Line": 23,
+              "Offset": 77,
+              "EndOffset": 91,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 137
+            },
+            {
+              "Line": 27,
+              "Offset": 101,
+              "EndOffset": 103,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 3
+            },
+            {
+              "Line": 27,
+              "Offset": 101,
+              "EndOffset": 113,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 140
+            },
+            {
+              "Line": 21,
+              "Offset": 64,
+              "EndOffset": 116,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 50
+            },
+            {
+              "Line": 35,
+              "Offset": 127,
+              "EndOffset": 129,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 1
+            },
+            {
+              "Line": 35,
+              "Offset": 127,
+              "EndOffset": 141,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 49
+            },
+            {
+              "Line": 39,
+              "Offset": 151,
+              "EndOffset": 153,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 1
+            },
+            {
+              "Line": 39,
+              "Offset": 151,
+              "EndOffset": 163,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 50
+            },
+            {
+              "Line": 18,
+              "Offset": 46,
+              "EndOffset": 170,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 232
+            },
+            {
+              "Line": 11,
+              "Offset": 185,
+              "EndOffset": 190,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 7
+            }
+          ]
+        },
+        "System.String Caesar_Cipher.CaesarCipher::Decrypt(System.String,System.Int32)": {
+          "Lines": {
+            "51": 2,
+            "52": 2,
+            "53": 2
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

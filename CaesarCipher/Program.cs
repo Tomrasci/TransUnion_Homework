@@ -4,8 +4,8 @@ namespace Caesar_Cipher
 {
     class Program
     {
-        static void Main(string[] args)
-        {
+         static void Main(string[] args)
+         {
             CaesarCipher cipher = new CaesarCipher();
             string testString = "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG";
             int shift = 3;
@@ -20,6 +20,6 @@ namespace Caesar_Cipher
             System.Console.WriteLine("--------------------------------------");
 
 
-        }
+         }
     }
 }

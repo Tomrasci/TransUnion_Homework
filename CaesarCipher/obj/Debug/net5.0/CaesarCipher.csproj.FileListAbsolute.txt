@@ -14,3 +14,10 @@ C:\Users\Tomas\Desktop\CaesarCipher\CaesarCipher\obj\Debug\net5.0\CaesarCipher.d
 C:\Users\Tomas\Desktop\CaesarCipher\CaesarCipher\obj\Debug\net5.0\ref\CaesarCipher.dll
 C:\Users\Tomas\Desktop\CaesarCipher\CaesarCipher\obj\Debug\net5.0\CaesarCipher.pdb
 C:\Users\Tomas\Desktop\CaesarCipher\CaesarCipher\obj\Debug\net5.0\CaesarCipher.genruntimeconfig.cache
+C:\Users\Tomas\Desktop\CaesarCipher\lcov.info\CaesarCipher.exe
+C:\Users\Tomas\Desktop\CaesarCipher\lcov.info\CaesarCipher.deps.json
+C:\Users\Tomas\Desktop\CaesarCipher\lcov.info\CaesarCipher.runtimeconfig.json
+C:\Users\Tomas\Desktop\CaesarCipher\lcov.info\CaesarCipher.runtimeconfig.dev.json
+C:\Users\Tomas\Desktop\CaesarCipher\lcov.info\CaesarCipher.dll
+C:\Users\Tomas\Desktop\CaesarCipher\lcov.info\ref\CaesarCipher.dll
+C:\Users\Tomas\Desktop\CaesarCipher\lcov.info\CaesarCipher.pdb
