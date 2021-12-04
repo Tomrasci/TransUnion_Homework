@@ -7,11 +7,11 @@ namespace Caesar_Cipher
          static void Main(string[] args)
          {
             CaesarCipher cipher = new CaesarCipher();
-            string testString = "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG";
-            int shift = 3;
-            System.Console.WriteLine("--------------------------------------");
-            System.Console.WriteLine("Message: " + testString);
-            string encryptedMessage = cipher.Encrypt(testString, shift);
+            System.Console.WriteLine("Please input a string to encrypt");
+            string inputString = Console.ReadLine();
+            System.Console.WriteLine("Please input the shift number");
+            int shift = Convert.ToInt32(Console.ReadLine());
+            string encryptedMessage = cipher.Encrypt(inputString, shift);
             System.Console.WriteLine("--------------------------------------");
             System.Console.WriteLine("Encrypted message: " + encryptedMessage);
             string decryptedMessage = cipher.Decrypt(encryptedMessage, shift);

@@ -4,167 +4,187 @@
       "Caesar_Cipher.CaesarCipher": {
         "System.String Caesar_Cipher.CaesarCipher::Encrypt(System.String,System.Int32)": {
           "Lines": {
-            "12": 7,
-            "13": 7,
             "14": 7,
             "15": 7,
-            "17": 478,
-            "18": 232,
-            "19": 232,
+            "16": 7,
+            "17": 7,
+            "19": 478,
             "20": 232,
+            "21": 232,
             "22": 232,
-            "24": 232,
-            "25": 190,
+            "23": 232,
+            "25": 232,
             "26": 190,
             "27": 190,
-            "28": 140,
+            "28": 190,
             "29": 140,
-            "30": 3,
-            "31": 3,
-            "32": 3,
-            "33": 137,
-            "34": 3,
-            "36": 3,
-            "37": 3,
-            "38": 140,
-            "40": 50,
-            "41": 50,
-            "42": 1,
-            "43": 1,
-            "44": 1,
-            "45": 49,
-            "46": 1,
-            "48": 1,
-            "49": 1,
-            "50": 50,
-            "51": 190,
-            "52": 190,
-            "53": 232,
-            "54": 7,
-            "55": 7
+            "30": 140,
+            "31": 140,
+            "33": 50,
+            "34": 50,
+            "35": 50,
+            "36": 190,
+            "37": 190,
+            "38": 232,
+            "39": 7,
+            "40": 7
           },
           "Branches": [
             {
-              "Line": 17,
-              "Offset": 185,
-              "EndOffset": 19,
+              "Line": 19,
+              "Offset": 110,
+              "EndOffset": 16,
               "Path": 1,
-              "Ordinal": 13,
+              "Ordinal": 5,
               "Hits": 232
             },
             {
-              "Line": 24,
-              "Offset": 46,
-              "EndOffset": 48,
+              "Line": 25,
+              "Offset": 43,
+              "EndOffset": 45,
               "Path": 0,
               "Ordinal": 0,
               "Hits": 190
             },
             {
-              "Line": 27,
-              "Offset": 64,
-              "EndOffset": 66,
+              "Line": 28,
+              "Offset": 61,
+              "EndOffset": 63,
               "Path": 0,
               "Ordinal": 2,
               "Hits": 140
             },
             {
-              "Line": 29,
-              "Offset": 77,
-              "EndOffset": 79,
-              "Path": 0,
-              "Ordinal": 4,
-              "Hits": 3
-            },
-            {
-              "Line": 29,
-              "Offset": 77,
-              "EndOffset": 91,
-              "Path": 1,
-              "Ordinal": 5,
-              "Hits": 137
-            },
-            {
-              "Line": 33,
-              "Offset": 101,
-              "EndOffset": 103,
-              "Path": 0,
-              "Ordinal": 6,
-              "Hits": 3
-            },
-            {
-              "Line": 33,
-              "Offset": 101,
-              "EndOffset": 113,
-              "Path": 1,
-              "Ordinal": 7,
-              "Hits": 140
-            },
-            {
-              "Line": 27,
-              "Offset": 64,
-              "EndOffset": 116,
+              "Line": 28,
+              "Offset": 61,
+              "EndOffset": 77,
               "Path": 1,
               "Ordinal": 3,
               "Hits": 50
             },
             {
-              "Line": 41,
-              "Offset": 127,
-              "EndOffset": 129,
-              "Path": 0,
-              "Ordinal": 8,
-              "Hits": 1
-            },
-            {
-              "Line": 41,
-              "Offset": 127,
-              "EndOffset": 141,
-              "Path": 1,
-              "Ordinal": 9,
-              "Hits": 49
-            },
-            {
-              "Line": 45,
-              "Offset": 151,
-              "EndOffset": 153,
-              "Path": 0,
-              "Ordinal": 10,
-              "Hits": 1
-            },
-            {
-              "Line": 45,
-              "Offset": 151,
-              "EndOffset": 163,
-              "Path": 1,
-              "Ordinal": 11,
-              "Hits": 50
-            },
-            {
-              "Line": 24,
-              "Offset": 46,
-              "EndOffset": 170,
+              "Line": 25,
+              "Offset": 43,
+              "EndOffset": 95,
               "Path": 1,
               "Ordinal": 1,
               "Hits": 232
             },
             {
-              "Line": 17,
-              "Offset": 185,
-              "EndOffset": 190,
+              "Line": 19,
+              "Offset": 110,
+              "EndOffset": 112,
               "Path": 0,
-              "Ordinal": 12,
+              "Ordinal": 4,
               "Hits": 7
             }
           ]
         },
         "System.String Caesar_Cipher.CaesarCipher::Decrypt(System.String,System.Int32)": {
           "Lines": {
-            "63": 2,
-            "64": 2,
-            "65": 2
+            "48": 2,
+            "49": 2,
+            "50": 2
           },
           "Branches": []
+        },
+        "System.Char Caesar_Cipher.CaesarCipher::lowerCaseLetterCheck(System.Char)": {
+          "Lines": {
+            "53": 50,
+            "54": 50,
+            "55": 1,
+            "56": 1,
+            "57": 1,
+            "58": 49,
+            "59": 1,
+            "61": 1,
+            "62": 1,
+            "63": 50,
+            "64": 50
+          },
+          "Branches": [
+            {
+              "Line": 54,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 54,
+              "Offset": 8,
+              "EndOffset": 21,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 49
+            },
+            {
+              "Line": 58,
+              "Offset": 28,
+              "EndOffset": 30,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 58,
+              "Offset": 28,
+              "EndOffset": 39,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 50
+            }
+          ]
+        },
+        "System.Char Caesar_Cipher.CaesarCipher::upperCaseLetterCheck(System.Char)": {
+          "Lines": {
+            "67": 140,
+            "68": 140,
+            "69": 3,
+            "70": 3,
+            "71": 3,
+            "72": 137,
+            "73": 3,
+            "75": 3,
+            "76": 3,
+            "77": 140,
+            "78": 140
+          },
+          "Branches": [
+            {
+              "Line": 68,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 68,
+              "Offset": 8,
+              "EndOffset": 21,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 137
+            },
+            {
+              "Line": 72,
+              "Offset": 28,
+              "EndOffset": 30,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 3
+            },
+            {
+              "Line": 72,
+              "Offset": 28,
+              "EndOffset": 39,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 140
+            }
+          ]
         }
       }
     }

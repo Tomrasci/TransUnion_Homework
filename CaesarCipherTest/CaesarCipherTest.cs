@@ -15,7 +15,7 @@ namespace CaesarCipherTest
             int shift = 3;
             string desiredOutput = "WKH TXLFN EURZQ IRA MXPSV RYHU WKH ODCB GRJ";
             CaesarCipher cipher = new CaesarCipher();
-            Assert.AreEqual(cipher.Encrypt(input, shift), desiredOutput);
+            Assert.AreEqual(desiredOutput, cipher.Encrypt(input, shift));
         }
         /// <summary>
         /// Method to test whether the cipher works with lowerCase letters
@@ -27,7 +27,7 @@ namespace CaesarCipherTest
             int shift = 3;
             string desiredOutput = "defghijklmnopqrstuvwxyztc";
             CaesarCipher cipher = new CaesarCipher();
-            Assert.AreEqual(cipher.Encrypt(input, shift), desiredOutput);
+            Assert.AreEqual(desiredOutput, cipher.Encrypt(input, shift));
         }
         /// <summary>
         /// Method to test if the cipher doesn't do anything with non letter characters.
@@ -38,7 +38,7 @@ namespace CaesarCipherTest
             string input = "12452_%$#!";
             int shift = 3;
             CaesarCipher cipher = new CaesarCipher();
-            Assert.AreEqual(cipher.Encrypt(input, shift), input);
+            Assert.AreEqual(input, cipher.Encrypt(input, shift));
         }
         /// <summary>
         /// Method to test if the module formula works on the shift (shifting by 26 and 104 should produce same result)
@@ -62,19 +62,19 @@ namespace CaesarCipherTest
             string desiredOutput = "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG";
             int shift = 3;
             CaesarCipher cipher = new CaesarCipher();
-            Assert.AreEqual(cipher.Decrypt(input, shift), desiredOutput);
+            Assert.AreEqual(desiredOutput, cipher.Decrypt(input, shift));
         }
         /// <summary>
         /// Method to test whether the cipher works with lowerCase letters when decrypting
         /// </summary>
-          [TestMethod]
+        [TestMethod]
         public void TestWithLowerCaseLettersDecrypt()
         {
             string input = "defghijklmnopqrstuvwxyztc";
             int shift = 3;
             string desiredOutput = "abcdefghijklmnopqrstuvwqz";
             CaesarCipher cipher = new CaesarCipher();
-            Assert.AreEqual(cipher.Decrypt(input, shift), desiredOutput);
+            Assert.AreEqual(desiredOutput, cipher.Decrypt(input, shift));
         }
     }
 }
