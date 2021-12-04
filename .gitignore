@@ -17,5 +17,8 @@
 # Support for Project snippet scope
 !.vscode/*.code-snippets
 
-.bin
-.obj
+.bin/
+*/bin/*
+
+.obj/
+*/obj/*
