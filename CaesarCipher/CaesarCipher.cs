@@ -48,7 +48,11 @@ namespace Caesar_Cipher
         {
             return new string(Encrypt(value, shift * (-1)));
         }
-
+        /// <summary>
+        /// Checks whether the lowerCase letter is out of alphabet bounds
+        /// </summary>
+        /// <param name="letter"></param>
+        /// <returns>Modified or same letter</returns>
         public char lowerCaseLetterCheck(char letter)
         {
             if (letter < 'a')
@@ -62,7 +66,11 @@ namespace Caesar_Cipher
             }
             return letter;
         }
-
+        /// <summary>
+        ///  Checks whether the upperCase letter is out of alphabet bounds
+        /// </summary>
+        /// <param name="letter"></param>
+        /// <returns>Modified or same letter</returns>
         public char upperCaseLetterCheck(char letter)
         {
             if (letter < 'A')
