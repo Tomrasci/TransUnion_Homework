@@ -2,7 +2,13 @@ namespace Caesar_Cipher
 {
     public class CaesarCipher
     {
-        public string Encrypt(string input, int shift)
+        /// <summary>
+        /// Method to encrypt a given string, shifting the letters by a given number. If it's not letter characters, it ignores them.
+        /// </summary>
+        /// <param name="input">Given string input to encrypt</param>
+        /// <param name="shift">Given number by how many letters should every given string letter be shifted</param>
+        /// <returns></returns>
+            public string Encrypt(string input, int shift)
         {
             bool isUpper = false;
             bool isLetter = false;
@@ -47,7 +53,13 @@ namespace Caesar_Cipher
             }
             return new string(letterArray);
         }
-        public string Decrypt(string value, int shift)
+        /// <summary>
+        /// Method to decrypt the given string, uses same encrypt method but shifts to the other side.
+        /// </summary>
+        /// <param name="value">Given string input to encrypt</param>
+        /// <param name="shift">Given number by how many letters should every given string letter be shifted</param>
+        /// <returns></returns>
+            public string Decrypt(string value, int shift)
         {
             return new string(Encrypt(value, shift * (-1)));
         }

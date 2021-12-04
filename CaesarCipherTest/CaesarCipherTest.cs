@@ -5,6 +5,9 @@ namespace CaesarCipherTest
     [TestClass]
     public class CaesarCipherTest
     {
+        /// <summary>
+        /// Method to test whether the cipher works with upperCase letters
+        /// </summary>
         [TestMethod]
         public void TestWithUpperCaseLettersEncrypt()
         {
@@ -14,7 +17,9 @@ namespace CaesarCipherTest
             CaesarCipher cipher = new CaesarCipher();
             Assert.AreEqual(cipher.Encrypt(input, shift), desiredOutput);
         }
-
+        /// <summary>
+        /// Method to test whether the cipher works with lowerCase letters
+        /// </summary>
         [TestMethod]
         public void TestWithLowerCaseLettersEncrypt()
         {
@@ -24,7 +29,9 @@ namespace CaesarCipherTest
             CaesarCipher cipher = new CaesarCipher();
             Assert.AreEqual(cipher.Encrypt(input, shift), desiredOutput);
         }
-
+        /// <summary>
+        /// Method to test if the cipher doesn't do anything with non letter characters.
+        /// </summary>
         [TestMethod]
         public void TestAllNonLetterCharacters()
         {
@@ -33,7 +40,9 @@ namespace CaesarCipherTest
             CaesarCipher cipher = new CaesarCipher();
             Assert.AreEqual(cipher.Encrypt(input, shift), input);
         }
-
+        /// <summary>
+        /// Method to test if the module formula works on the shift (shifting by 26 and 104 should produce same result)
+        /// </summary>
         [TestMethod]
         public void TestWithLargeShift()
         {
@@ -43,7 +52,9 @@ namespace CaesarCipherTest
             CaesarCipher cipher = new CaesarCipher();
             Assert.AreEqual(cipher.Encrypt(input, shift), cipher.Encrypt(input, largeShift));
         }
-
+        /// <summary>
+        /// Method to test whether the cipher works with upperCase letters when decrypting
+        /// </summary>
         [TestMethod]
         public void TestWithUpperCaseLettersDecrypt()
         {
@@ -53,6 +64,9 @@ namespace CaesarCipherTest
             CaesarCipher cipher = new CaesarCipher();
             Assert.AreEqual(cipher.Decrypt(input, shift), desiredOutput);
         }
+        /// <summary>
+        /// Method to test whether the cipher works with lowerCase letters when decrypting
+        /// </summary>
           [TestMethod]
         public void TestWithLowerCaseLettersDecrypt()
         {
