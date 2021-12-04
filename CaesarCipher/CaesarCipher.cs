@@ -51,7 +51,7 @@ namespace Caesar_Cipher
         /// <summary>
         /// Checks whether the lowerCase letter is out of alphabet bounds
         /// </summary>
-        /// <param name="letter"></param>
+        /// <param name="letter">Letter from input string</param>
         /// <returns>Modified or same letter</returns>
         public char lowerCaseLetterCheck(char letter)
         {
@@ -69,7 +69,7 @@ namespace Caesar_Cipher
         /// <summary>
         ///  Checks whether the upperCase letter is out of alphabet bounds
         /// </summary>
-        /// <param name="letter"></param>
+        /// <param name="letter">Letter from input string</param>
         /// <returns>Modified or same letter</returns>
         public char upperCaseLetterCheck(char letter)
         {
