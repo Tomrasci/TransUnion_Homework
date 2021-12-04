@@ -7,7 +7,7 @@ namespace Caesar_Cipher
         /// </summary>
         /// <param name="input">Given string input to encrypt</param>
         /// <param name="shift">Given number by how many letters should every given string letter be shifted</param>
-        /// <returns></returns>
+        /// <returns>"Encrypted string</returns>
             public string Encrypt(string input, int shift)
         {
             bool isUpper = false;
@@ -58,7 +58,7 @@ namespace Caesar_Cipher
         /// </summary>
         /// <param name="value">Given string input to encrypt</param>
         /// <param name="shift">Given number by how many letters should every given string letter be shifted</param>
-        /// <returns></returns>
+        /// <returns>Decrypted string</returns>
             public string Decrypt(string value, int shift)
         {
             return new string(Encrypt(value, shift * (-1)));
